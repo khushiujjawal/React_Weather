@@ -7,7 +7,7 @@ const useStyles = makeStyles({
     height: "100vh",
     display: "flex",
     alignItems: "center",
-    width: "65%",
+    width: "95%",
     margin: "0 auto",
   },
    components: {
@@ -19,7 +19,7 @@ const useStyles = makeStyles({
     backgroundColor: "#ffc0cb",
   },
   leftContainer: {
-    width: "50%",
+    width: "45%",
     height: "100%",
     backgroundImage: `url(${Image})`,
     backgroundSize: "cover",
