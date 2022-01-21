@@ -11,15 +11,15 @@ const useStyles = makeStyles({
     margin: "0 auto",
   },
   leftContainer: {
-    width: "27%",
-    height: "80%",
+    width: "50%",
+    height: "100%",
     backgroundImage: `url(${Image})`,
     backgroundSize: "cover",
     borderRadius: "20px 0 0 20px",
   },
   rightContainer: {
-    width: "73%",
-    height: "80%",
+    width: "100%",
+    height: "100%",
     background: "linear-gradient(to right, #e74c3c, #e67e22)",
   },
 });
