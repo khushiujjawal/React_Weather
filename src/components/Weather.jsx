@@ -10,6 +10,14 @@ const useStyles = makeStyles({
     width: "65%",
     margin: "0 auto",
   },
+   components: {
+    height: "100vh",
+    display: "flex",
+    alignItems: "center",
+    width: "100%",
+    margin: "0 auto",
+    backgroundColor: "#ffc0cb",
+  },
   leftContainer: {
     width: "50%",
     height: "100%",
@@ -27,10 +35,12 @@ const useStyles = makeStyles({
 const Weather = () => {
   const classes = useStyles();
   return (
+    <Box className={classes.components}>
     <Box className={classes.component}>
       <Box className={classes.leftContainer}></Box>
       <Box className={classes.rightContainer}>
         <Form />
+      </Box>
       </Box>
     </Box>
   );
