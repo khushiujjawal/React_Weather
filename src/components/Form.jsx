@@ -8,6 +8,7 @@ const useStyles = makeStyles({
     padding: 10,
     display: "flex",
     background: "#445A6F",
+    borderRadius: "0 20px 20px 0",
   },
   input: {
     color: "#fff",
